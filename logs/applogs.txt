@@ -1,5 +1,8 @@
-2024-04-16T12:51:35,126 [main] INFO  (AllureReportGeneration.java:43) - e2eAPIRequest test execution started...
-2024-04-16T12:51:41,040 [main] INFO  (RestAssuredListener.java:23) - 
+2024-11-17T17:15:53,548 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  D:\Selenium\Selenium_FrameWork\FrameWorks\RestAssuredAPI\master.xml
+
+2024-11-17T17:15:54,731 [main] INFO  (AllureReportGeneration.java:43) - e2eAPIRequest test execution started...
+2024-11-17T17:15:59,037 [main] INFO  (RestAssuredListener.java:23) - 
  Method =>POST
  URI => https://restful-booker.herokuapp.com/booking
  Request body => {
@@ -14,7 +17,7 @@
     "additionalneeds": "super bowls"
 }
  Response body => {
-    "bookingid": 329,
+    "bookingid": 2911,
     "booking": {
         "firstname": "api testing",
         "lastname": "tutorial",
@@ -27,9 +30,9 @@
         "additionalneeds": "super bowls"
     }
 }
-2024-04-16T12:51:42,628 [main] INFO  (RestAssuredListener.java:23) - 
+2024-11-17T17:16:00,454 [main] INFO  (RestAssuredListener.java:23) - 
  Method =>GET
- URI => https://restful-booker.herokuapp.com/booking/329
+ URI => https://restful-booker.herokuapp.com/booking/2911
  Request body => null
  Response body => {
     "firstname": "api testing",
@@ -42,7 +45,7 @@
     },
     "additionalneeds": "super bowls"
 }
-2024-04-16T12:51:44,092 [main] INFO  (RestAssuredListener.java:23) - 
+2024-11-17T17:16:01,735 [main] INFO  (RestAssuredListener.java:23) - 
  Method =>POST
  URI => https://restful-booker.herokuapp.com/auth
  Request body => {
@@ -51,11 +54,11 @@
 
 }
  Response body => {
-    "token": "8a10e93a55de9c9"
+    "token": "b5816f3d317a23d"
 }
-2024-04-16T12:51:45,288 [main] INFO  (RestAssuredListener.java:23) - 
+2024-11-17T17:16:03,060 [main] INFO  (RestAssuredListener.java:23) - 
  Method =>PUT
- URI => https://restful-booker.herokuapp.com/booking/329
+ URI => https://restful-booker.herokuapp.com/booking/2911
  Request body => {
     "firstname": "Specflow",
     "lastname": "Selenium C#",
@@ -78,9 +81,9 @@
     },
     "additionalneeds": "super bowls"
 }
-2024-04-16T12:51:47,587 [main] INFO  (RestAssuredListener.java:23) - 
+2024-11-17T17:16:06,572 [main] INFO  (RestAssuredListener.java:23) - 
  Method =>PATCH
- URI => https://restful-booker.herokuapp.com/booking/329
+ URI => https://restful-booker.herokuapp.com/booking/2911
  Request body => {
     "firstname": "Testers Talk"
 }
@@ -95,14 +98,14 @@
     },
     "additionalneeds": "super bowls"
 }
-2024-04-16T12:51:48,864 [main] INFO  (RestAssuredListener.java:23) - 
+2024-11-17T17:16:07,863 [main] INFO  (RestAssuredListener.java:23) - 
  Method =>DELETE
- URI => https://restful-booker.herokuapp.com/booking/329
+ URI => https://restful-booker.herokuapp.com/booking/2911
  Request body => null
  Response body => Created
-2024-04-16T12:51:48,866 [main] INFO  (AllureReportGeneration.java:154) - e2eAPIRequest test execution ended...
-2024-04-16T12:51:48,909 [main] INFO  (AllureReportGeneration.java:164) - e2eAPIRequest test execution started...
-2024-04-16T12:51:50,091 [main] INFO  (RestAssuredListener.java:23) - 
+2024-11-17T17:16:07,865 [main] INFO  (AllureReportGeneration.java:154) - e2eAPIRequest test execution ended...
+2024-11-17T17:16:07,924 [main] INFO  (AllureReportGeneration.java:164) - e2eAPIRequest test execution started...
+2024-11-17T17:16:09,116 [main] INFO  (RestAssuredListener.java:23) - 
  Method =>POST
  URI => https://restful-booker.herokuapp.com/booking
  Request body => {
@@ -117,7 +120,7 @@
     "additionalneeds": "super bowls"
 }
  Response body => {
-    "bookingid": 413,
+    "bookingid": 2991,
     "booking": {
         "firstname": "api testing",
         "lastname": "tutorial",
@@ -130,9 +133,9 @@
         "additionalneeds": "super bowls"
     }
 }
-2024-04-16T12:51:51,331 [main] INFO  (RestAssuredListener.java:23) - 
+2024-11-17T17:16:11,522 [main] INFO  (RestAssuredListener.java:23) - 
  Method =>GET
- URI => https://restful-booker.herokuapp.com/booking/413
+ URI => https://restful-booker.herokuapp.com/booking/2991
  Request body => null
  Response body => {
     "firstname": "api testing",
@@ -145,4 +148,4 @@
     },
     "additionalneeds": "super bowls"
 }
-2024-04-16T12:51:51,333 [main] INFO  (AllureReportGeneration.java:215) - e2eAPIRequest test execution ended...
+2024-11-17T17:16:11,524 [main] INFO  (AllureReportGeneration.java:215) - e2eAPIRequest test execution ended...
